@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vault
+*.unseal
+*.root-token
+secrets/
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Logs
+*.log
